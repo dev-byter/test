@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 h1,h2,h3,h4,h5,h6,html,body,ol,ul,p{
@@ -211,6 +211,108 @@ main{
 .cart .order-block{
     position: absolute;
     display: none;
+    width: 360px;
+    right: 0;
+    top: 66px;
+    background: #fafafa;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+.cart .order-block>div{
+    padding: 16px;
+    border-bottom: 1px solid #e1e1e6;
+}
+.order-block .list-unit .item{
+    border-bottom: 1px dashed #e1e1e6;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+.cart .order-block>div:last-child, .order-block .list-unit .item:last-child{
+    border-bottom: 0;
+}
+.order-block .list-unit .item:last-child{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.order-block .title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #006ed2;
+}
+.order-block .list-unit .name{
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-right: 25px;
+}
+.order-block .list-unit .close{
+    font-size: 18px;
+    color: #006ed2;
+    line-height: 24px;
+    cursor: pointer;
+}
+.style-number{
+    position: relative;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 24px;
+}
+.style-number input{
+    width: 48px;
+    line-height: 22px;
+    height: 24px;
+    border: 1px solid #e1e1e6;
+    text-align: center;
+    border-radius: 2px;
+    background: #fafafa;
+    transition: .3s color;
+}
+
+.style-number__btn{
+    color: #006ed2;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc(50% - 12px);
+    transition: .3s color;
+}
+.style-number__btn .minus{
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+}
+.order-block__description{
+    font-size: 16px;
+    line-height: 24px;
+}
+.style-number__btn .plus{
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+}
+.style-number input:disabled, .style-number input:disabled + .style-number__btn{
+    color: #b9b9c3;
+}
+.order-block__total>div{
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 8px;
+}
+.order-block__total>div:last-child{
+    margin-bottom: 0;
+}
+.order-block__total>div>div{
+    width: 50%;
+}
+.order-block__total>div>div:nth-child(2){
+    text-align: right;
+}
+.order-block .list-unit .price{
+    font-size: 16px;
+    line-height: 24px;
 }
 .conteiner{
     padding: 16px;

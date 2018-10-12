@@ -58,8 +58,64 @@
     <main>
         <div class="navigations-btns clear">
             <div class="cart pull-right">
-                <a href="" class="btn"><i class="mdi mdi-cart"></i> Shopping Cart</a>
-
+                <a id="showCart" href="" class="btn"><i class="mdi mdi-cart"></i> Shopping Cart</a>
+                <div class="order-block">
+                    <div class="title">Your Order</div>
+                    <div class="list-unit">
+                        <div class="item">
+                            <div class="close pull-right"><i class="mdi mdi-close"></i></div>
+                            <div class="name"><strong>1. Update Plan — 000 000 SKU</strong></div>
+                            <div class="flex flex-between">
+                                <div class="style-number">
+                                    <input type="text" value="1" disabled />
+                                    <div class="style-number__btn">
+                                        <div class="minus"><i class="mdi mdi-chevron-left"></i></div>
+                                        <div class="plus"><i class="mdi mdi-chevron-right"></i></div>
+                                    </div>
+                                </div>
+                                <div class="price">€ 000 000.00 / month</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="close pull-right"><i class="mdi mdi-close"></i></div>
+                            <div class="name"><strong>2. Channel Setup</strong></div>
+                            <div class="flex flex-between">
+                                <div class="style-number">
+                                    <input type="text" value="2" />
+                                    <div class="style-number__btn">
+                                        <div class="minus"><i class="mdi mdi-chevron-left"></i></div>
+                                        <div class="plus"><i class="mdi mdi-chevron-right"></i></div>
+                                    </div>
+                                </div>
+                                <div class="price">€ 000 000.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-block__description">
+                        Your subscription details will be updated after your payment. Current subscription will be refunded for the unused subscription days.
+                    </div>
+                    <div class="order-block__total">
+                        <div class="subtotal">
+                            <div>Subtotal:</div>
+                            <div>€ 0000.00</div>
+                        </div>
+                        <div class="discount">
+                            <div>Discount (20%):</div>
+                            <div>- € 0000.00</div>
+                        </div>
+                        <div class="vat">
+                            <div>VAT (24%):</div>
+                            <div>€ 0000.00</div>
+                        </div>
+                        <div class="grand-total">
+                            <div><b>Grand Total:</b></div>
+                            <div><b>€ 000 000.00</b></div>
+                        </div>
+                    </div>
+                    <div class="order-block__checkout">
+                        <a href="" class="btn btn-full">GO TO CHECKOUT</a>
+                    </div>
+                </div>
             </div>
         </div>
         <section class="conteiner">
