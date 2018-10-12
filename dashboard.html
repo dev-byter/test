@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="fonts/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="http://lib.dev-byter.com.ua/owl/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="http://lib.dev-byter.com.ua/owl/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="http://lib.dev-byter.com.ua/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="http://lib.dev-byter.com.ua/jquery-ui/jquery-ui.theme.css">
+
+    <script src="http://lib.dev-byter.com.ua/jquery/jquery2.3.1.min.js"></script>
+    <script src="http://lib.dev-byter.com.ua/owl/dist/owl.carousel.js"></script>
+    <script src="http://lib.dev-byter.com.ua/jquery-ui/jquery-ui.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header class="clear">
+        <div class="logo pull-left">
+            <div class="logo__img"><a href=""><img src="img/logotype.png" alt="logotype"></a></div>
+            <div class="menu-text"><a href="">MENU</a></div>
+        </div>
+        <div class="header-info">
+            <div class="top flex flex-between">
+                <div class="title light">Dashboard</div>
+                <div class="clear">
+                    <div class="count">
+                        <span class="light sku color-blue">10 234 SKUs </span>
+                        <span class="color-blue">AVAILABLE</span>
+                        <span> | OF 15 000</span>
+                    </div>
+                    <div class="power">
+                        <a href=""><i class="mdi mdi-power color-blue"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom clear">
+                <nav class="main-menu pull-left">
+                    <ul>
+                        <li><a href="">...</a> </li>
+                        <li><a href="">Settings</a> </li>
+                        <li class="selected"><a href="">Pricing</a> </li>
+                        <li><a href="">...</a> </li>
+                        <li><a href="">...</a> </li>
+                    </ul>
+                </nav>
+                <div class="pull-right condensed clear">
+                    <div class="header-info__plan">Your Plan: <span class="color-blue">Plan Name</span></div>
+                    <div class="header-info__payment-data text-right">Payment Date: <span class="color-blue">24.09.2007</span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="navigations-btns clear">
+            <div class="cart pull-right">
+                <a href="" class="btn"><i class="mdi mdi-cart"></i> Shopping Cart</a>
+
+            </div>
+        </div>
+        <section class="conteiner">
+            <div class="widget widget-plan">
+                <div class="widget__block">
+                    <div class="left">
+                        <div class="radio-btns-inline">
+                            <div class="radio-btn">
+                                <input id="plan1" type="radio" name="plan" checked >
+                                <label for="plan1">Monthly</label>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="plan2" type="radio" name="plan" >
+                                <label for="plan2">Annually — Save 20 %</label>
+                            </div>
+                        </div>
+                        <div class="widget-plan_calc">
+                            <div class="widget-plan__name">
+                                <div class="owl-carousel">
+                                    <div class="item" data-price="7500">7500 SKU</div>
+                                    <div class="item" data-price="17500">17500 SKU</div>
+                                    <div class="item" data-price="27500">27500 SKU</div>
+                                </div>
+                            </div>
+                            <div class="widget-plan__period">
+                                <div id="widget-plan__month-slider"></div>
+                            </div>
+                            <div class="widget-plan__price">
+                                € 000 000.00 / mo
+                            </div>
+                            <div class="btn-add-cart">
+                                <a href="" class="btn btn-full">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="widget-plan__list-event">
+                            <ul style="display: block">
+                                <li class="checked mdi-object">
+                                    <span class="label">7500 SKU</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Unlimited Orders</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">All Channels at One Price</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Dedicated Support Team</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Two Channels Free Setup</span>
+                                </li>
+                                <li class="disabled mdi-object">
+                                    <span class="label">Free Sellbery T-Shirt</span>
+                                </li>
+                                <li class="disabled mdi-object">
+                                    <span class="label">Enterprise Feature</span>
+                                </li>
+                            </ul>
+                            <ul class="active" >
+                                <li class="checked mdi-object">
+                                    <span class="label">17500 SKU</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Unlimited Orders</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">All Channels at One Price</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Dedicated Support Team</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Two Channels Free Setup</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Free Sellbery T-Shirt</span>
+                                </li>
+                                <li class="disabled mdi-object">
+                                    <span class="label">Enterprise Feature</span>
+                                </li>
+                            </ul>
+                            <ul class="active" >
+                                <li class="checked mdi-object">
+                                    <span class="label">27500 SKU</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Unlimited Orders</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">All Channels at One Price</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Dedicated Support Team</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Two Channels Free Setup</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Free Sellbery T-Shirt</span>
+                                </li>
+                                <li class="checked mdi-object">
+                                    <span class="label">Enterprise Feature</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
